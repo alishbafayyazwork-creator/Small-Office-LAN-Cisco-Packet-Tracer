@@ -171,6 +171,7 @@ tracert 192.168.20.10
 
 The result showed the Web Server directly as the first and only hop.
 ![Tracert Test](screenshots/Tracert_Test.png)
+
 This occurred because the PC and Web Server are both located on the same `192.168.20.0/24` LAN. Therefore, the traffic does not need to pass through the router to reach the Web Server.
 
 ---
